@@ -34,13 +34,13 @@ function result() {
 
   if(customName.value !== '') {
     var name = customName.value;
-    newStory=newStory.replace('bob',name)
+    newStory = newStory.replace('Bob', name)
 
   }
 
   if(document.getElementById("uk").checked) {
-    var weight = Math.round(300*.07142857 + 'stone');
-    var temperature =  Math.round((94-32)*(5/9) + 'Centigrade');
+    var weight = Math.round(300 * .07142857) + 'stone';
+    var temperature =  Math.round(94 - 32) * .71429 + 'Centigrade';
     newStory=newStory.replace('94 fahrenheit',temperature)
     newStory=newStory.replace('300 pounds', weight)
 

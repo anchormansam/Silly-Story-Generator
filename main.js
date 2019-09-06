@@ -39,8 +39,8 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    var weight = Math.round(300*.07142857 + 'stone');
-    var temperature =  Math.round((94-32)*(5/9) + 'Centigrade');
+    var weight = Math.round(300 * .07142857) + 'stone';
+    var temperature =  Math.round(94 - 32) / 1.8 + 'Centigrade';
     newStory=newStory.replace('94 fahrenheit',temperature)
     newStory=newStory.replace('300 pounds', weight)
 

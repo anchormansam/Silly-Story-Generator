@@ -50,4 +50,4 @@ function result() {
   story.style.visibility = 'visible';
   }
 
-}
+  }
